@@ -1,0 +1,142 @@
+body {
+	font: 100% Arial, Helvetica;
+	background: #111111;
+	text-align: center; 
+	color: #000000;
+}
+
+#container {
+	position: absolute;
+	left: 200px;
+	margin: 0 auto;
+	padding: 0;
+	border: 1px solid #000000;
+	width: 1200px;
+	height: 100%;
+	text-align: left;
+}
+
+#header {
+	position: absolute;
+	background: #FFFFFF;
+	height: 207px;
+	width: 1200px;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px #000000 solid;
+}
+
+#logo {
+	position: absolute;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+#content {
+	position: relative;
+	top: 207px;
+	width: 900px;
+	padding: 0 0 0 300px;
+	border-top: 1px #000000 solid;
+	margin: 0;
+	background: #CCBB99;
+}
+
+#leftmenu {
+	position: absolute;
+	top: 207px;
+	left: 0px;
+	width: 202px;
+	margin: 0 0 0 -1px;
+	padding: 0;
+	font-size: 1.1em;
+	border-top: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+}
+
+#leftmenu li {
+	position: relative;
+	list-style-type: none;
+}
+
+#leftmenu li a {
+	display: block;
+	text-align: left;
+	background: #662200;
+	border-bottom: 1px #000000 solid;
+	border-left: 10px #000000 solid;
+	text-decoration: none;
+	height: 1.5em;
+}
+
+#leftmenu li a:link {
+	color: #FFFFFF;
+}
+
+#leftmenu li a:visited {
+	color: #FFFFFF;
+}
+
+#leftmenu li a:hover {
+	border-left: 10px #FFFFFF solid;
+	background: #FFCC00;
+	color: #666666;
+}
+
+#navsubheading {
+	margin: 0;
+	padding: 0.4em;
+	border-left: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	background: #996644;
+	color: #000000;
+	font-weight: bold;
+}
+
+#navsubheading a {
+	margin: 0;
+	padding: 0.4em;
+	border-left: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	background: #996644;
+	color: #000000;
+	font-weight: bold;
+}
+
+#footer {
+	position: relative;
+	top: 207px;
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	margin: 0;
+	padding: 0 0 0 ;
+	border-top: 3px solid #000000;
+	background: #AAAAAA;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+}
+
+#content p {
+	font-size: 1em;
+}
+html>body
+#content {
+	top: 207px;
+}
+
+html>body
+#leftmenu {
+	left: 0px;
+	top: 207px;
+}
+
+html>body
+#leftmenufill {
+	left: 0px;
+}
